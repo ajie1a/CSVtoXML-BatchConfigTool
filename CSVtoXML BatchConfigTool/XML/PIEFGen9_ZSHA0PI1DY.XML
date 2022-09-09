@@ -1,0 +1,3248 @@
+﻿<EFrameConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name_Valid>true</Name_Valid>
+  <Name>EFConfig_Tree</Name>
+  <Children>
+    <ProcedureConfig>
+      <Name_Valid>true</Name_Valid>
+      <Name>PI-BaGen</Name>
+      <Children>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Reactor 1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V0001/T041AF935/SFC_TYPE.Phase_AO_B</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V0001/T041AF935/SFC_TYPE.Phase_AO_B</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V0001/UNIT_AC4120/UNIT_AC4120.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V0001/R1_EK1_Number.R1_BatchName</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>300</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V0001/R1_EK1_Number.R1_MatCode</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V0001/R1_EK1_Number.R1_BatchName</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V0001\Reactor 1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V0001/R1_EK1_Number.R1_BatchName</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Dryer1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V0002/T011EF204/Dryer1_PhaseSg.U</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V0002/T011EF204/Dryer1_PhaseSg.U</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V0002/T011EF204/Dryer1_BISS_ChgStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V0002/T011EU009/Dryer1_BatCode.V</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V0002/T011EF204/MaterialNo</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V0002/T011EU009/Dryer1_BatCode.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V0002\Dryer1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V0002/T011EU009/Dryer1_BatCode.V</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>EK1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V0001/T041AF936/SFC_TYPE.Phase_AO_B</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V0001/T041AF936/SFC_TYPE.Phase_AO_B</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V0001/UNIT_AB4130/UNIT_AB4130.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V0001/R1_EK1_Number.EK1_BatchName</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>300</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V0001/R1_EK1_Number.EK1_MatCode</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V0001/R1_EK1_Number.EK1_BatchName</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V0001\EK1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V0001/R1_EK1_Number.EK1_BatchName</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>EK2</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6510/T042AF936/SFC_TYPE.Phase_Q</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V6510/T042AF936/SFC_TYPE.Phase_Q</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6510/UNIT_AB4230/UNIT_AB4230.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/UNIT_AB4230/BatchNumberEK2.V</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>300</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6510/UNIT_AB4230/MatCodeEK2.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/UNIT_AB4230/BatchNumberEK2.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\EK2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/UNIT_AB4230/BatchNumberEK2.V</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>HDK1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6200T010EU500_BISS-Phase</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6200T010EU500_BISS-Phase</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6200T010_ChgStart</ActivePointName>
+          <ActivePointBehavior>2</ActivePointBehavior>
+          <ID>V6200T010EH1021</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>2700</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6200T010EU500_PRODName</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6200T010EH1021</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6200\HDK1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6200T010EH1021</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>HDK2</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6200T020EU500_BISS-Phase</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6200T020EU500_BISS-Phase</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6200T020_ChgStart</ActivePointName>
+          <ActivePointBehavior>2</ActivePointBehavior>
+          <ID>V6200T020EH2021</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>2700</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6220T010EU500_PRODName</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6200T020EH2021</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6200\HDK2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6200T020EH2021</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Reactor 2</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6510/T042AF935/SFC_TYPE.Phase_Q</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V6510/T042AF935/SFC_TYPE.Phase_Q</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6510/UNIT_AC4220/UNIT_AC4220.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/UNIT_AC4220/BatchNumberR2.V</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>300</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6510/UNIT_AC4220/MatCodeR2.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/UNIT_AC4220/BatchNumberR2.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\Reactor 2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/UNIT_AC4220/BatchNumberR2.V</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>RTV1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6100T130EU201_Phase</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V6100T130EU201_Phase</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6100T130_ChgStart_Biss</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6100T130_Batch_No</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6100T130EU201_product</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6100T130_Batch_No</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\RTV1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6100T130_Batch_No</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>CR1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Production</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6105T011_BISS_Phase</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>Production</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Shutdown</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6105T011_BISS_Shutdown</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>Shutdown</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6105T011_BISS_ChgStart</ActivePointName>
+          <ActivePointBehavior>0</ActivePointBehavior>
+          <ID>V6105T011_BISS_BatchNo</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>60</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6105T011EU001_Recipe name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6105T011_BISS_BatchNo</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\CR1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6105T011_BISS_BatchNo</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>CR2</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Production</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6105T012_BISS_Phase</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>Production</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Shutdown</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6105T012_BISS_Shutdown</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>Shutdown</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6105T012_BISS_ChgStart</ActivePointName>
+          <ActivePointBehavior>0</ActivePointBehavior>
+          <ID>V6105T012_BISS_BatchNo</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>60</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6105T012EU001_Recipe name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6105T012_BISS_BatchNo</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\CR2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6105T012_BISS_BatchNo</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Reactor 1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6530Phases_R</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6530Phases_R</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6530Batch_R_activ</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6530BatchNo_R</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>120</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6530Product_R</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6530BatchNo_R</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6530\Reactor 1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6530BatchNo_R</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Stripper 1</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6530Phases_S</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6530Phases_S</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6530Batch_S_activ</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6530BatchNo_S</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6530Product_S</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6530BatchNo_S</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6530\Stripper 1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6530BatchNo_S</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AC301</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6107T031EU001_Step_Number_BISS</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6107T031EU001_Step_Number_BISS</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6107T031EU001_BISS_ChgStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6107T031EU001_Batch name</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6107T031EU001_Recipe name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6107T031EU001_Batch name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\AC301</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6107T031EU001_Batch name</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AC302</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6107T031EU002_Step_Number_BISS</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>V6107T031EU002_Step_Number_BISS</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6107T031EU002_BISS_ChgStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6107T031EU002_Batch name</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6107T031EU002_Recipe name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6107T031EU002_Batch name</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\AC302</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6107T031EU002_Batch name</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AB601</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6111T061EU161_BISS_BatchStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6111T061EU161_Sel_BatchID</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6111T061EU162_Product_Code</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6111T061EU161_Sel_BatchID</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6111\AB601</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6111T061EU161_Sel_BatchID</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AB602</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6111T062EU261_BISS_BatchStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6111T062EU261_Sel_BatchID</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6111T062EU262_Product_Code</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6111T062EU261_Sel_BatchID</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6111\AB602</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6111T062EU261_Sel_BatchID</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AB5001 PVOH</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>E0001/T050EU001/PVOH_PHA_NAME</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>E0001/T050EU001/PVOH_PHA_NAME</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>E0001/T050EU001/PVOH_ACT</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>E0001/T050EU001/PVOH_BNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>E0001/T050EF001/PVOH_PRODUCT_NAME</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>E0001/T050EU001/PVOH_BNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\E0001\AB5001 PVOH</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>E0001/T050EU001/PVOH_BNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>VAM Bay 1</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>E0001/T040EH201/VAM_TRUCK_BUTTON</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>E0001/T040EH201/VAM_TRUCK_BNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>180</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>E0001/T040EH102/VAM_TYPE</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>E0001/T040EH201/VAM_TRUCK_BNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\VAM Bay 1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>E0001/T040EH201/VAM_TRUCK_BNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Truck Filling 2</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6510/T053EU501/TF_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/T053EU501/TF_BATCH_NO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>180</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6510/T053EF501/MD_PRODUCT_GRADE</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/T053EU501/TF_BATCH_NO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\Truck Filling 2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/T053EU501/TF_BATCH_NO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Truck Filling 1</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V0001/T053EU301/TF_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/T053EU301/TF_BATCH_NO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V0001/T053EF001/MD_PRODUCT_GRADE</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/T053EU301/TF_BATCH_NO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\Truck Filling 1</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/T053EU301/TF_BATCH_NO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR201</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6106T021EU005_DOSING</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6106T021EU005_BISS_BatchNo</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6106T021EU005_Prod</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6106T021EU005_BISS_BatchNo</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6100\AR201</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6106T021EU005_BISS_BatchNo</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AB6101 p-p</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>E0001/T061EX001/PP_PHA_NAME</ActivePointName>
+              <ActivePointBehavior>2</ActivePointBehavior>
+              <ID>E0001/T061EX001/PP_PHA_NAME</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>E0001/T061EX001/PP_ACT</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>E0001/T061EX001/PP_BNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>E0001/T061EX001/PP_PRODUCT_NAME</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>E0001/T061EX001/PP_BNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\E0001\AB6101 p-p</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>E0001/T061EX001/PP_BNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>V6111=T061=AB601</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU150 Dosing IBC1</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU150_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU150 Dosing IBC1</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU151 Dosing IBC3</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU151_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU151 Dosing IBC3</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU152 Dosing IBC5</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU152_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU152 Dosing IBC5</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU153 Dosing IBC Emulsifier</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU153_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU153 Dosing IBC Emulsifier</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU154 Dosing AB606</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU154_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU154 Dosing AB606</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU155 Dosing PDMS</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU155_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU155 Dosing PDMS</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU156 Dosing DM Water</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU156_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU156 Dosing DM Water</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU157 Mixing</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU157_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU157 Mixing</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU158 Homogenizing</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU158_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU158 Homogenizing</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU159 Cooling</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU159_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU159 Cooling</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU160 Heating</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU160_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU160 Heating</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU161 Transfer</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU161_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU161 Transfer</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU162 Cleaning</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T061EU161_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU162 Cleaning</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6111T061EU161_BISS_BatchStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6111T061EU161_Sel_BatchID</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6111T061EU162_Product_Code</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6111T061EU161_Sel_BatchID</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6111\V6111=T061=AB601</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6111T061EU161_Sel_BatchID</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>V6111=T061=AB602</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU250 Dosing by Presser</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU250_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU250 Dosing by Presser</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU251 Dosing IBC4</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU251_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU251 Dosing IBC4</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU252 Dosing IBC5</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU252_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU252 Dosing IBC5</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU253 Dosing IBC Emulsifier</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU253_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU253 Dosing IBC Emulsifier</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU254 Dosing AB606</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU254_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU254 Dosing AB606</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU255 Dosing PDMS</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU255_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU255 Dosing PDMS</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU256 Dosing DM Water</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU256_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU256 Dosing DM Water</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU257 Mixing</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU257_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU257 Mixing</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU258 Homogenizing</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU258_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU258 Homogenizing</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU259 Cooling</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU259_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU259 Cooling</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU260 Heating</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU260_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU260 Heating</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU261 Transfer</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU261_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU261 Transfer</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU262 Cleaning</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU261_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU262 Cleaning</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>EU262 Dosing AK300000</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6111T062EU264_STATE.Q1</ActivePointName>
+              <ActivePointBehavior>1</ActivePointBehavior>
+              <ID>EU262 Dosing AK300000</ID>
+              <IDBehavior>1</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6111T062EU261_BISS_BatchStart</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6111T062EU261_Sel_BatchID</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6111T062EU262_Product_Code</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6111T062EU261_Sel_BatchID</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6111\V6111=T061=AB602</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6111T062EU261_Sel_BatchID</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Hold.Tank2</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phasen</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V6510/T042AF937/SFC_TYPE.Phase_AQ</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V6510/T042AF937/SFC_TYPE.Phase_AQ</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6510/UNIT_AB4240/UNIT_AB4240.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/UNIT_AB4240/BatchNumberPP.V</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>180</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6510/UNIT_AB4240/MatCodePP.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/UNIT_AB4240/BatchNumberPP.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\Hold.Tank2</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/UNIT_AB4240/BatchNumberPP.V</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR311</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6300T090AR311_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6300T090AR311_BN</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6300T090AR311_PN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6300T090AR311_BN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6300\AR311</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6300T090AR311_BN</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR100</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6300T010AR100_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6300T010AR100_BN</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6300T010AR100_PN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6300T010AR100_BN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6300\AR100</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6300T010AR100_BN</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR306</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6300T031AR307_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6300T031AR306_BN</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6300T031AR306_PN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6300T031AR306_BN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6300\AR306</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6300T031AR306_BN</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR309</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6300T089AR309_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6300T089AR309_BN</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString>V6300T089AR309_PN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6300T089AR309_BN</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6300\AR309</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6300T089AR309_BN</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR140</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6113T014AR140_B_V1</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6113T014AR140_B_N</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6113T014AR140_P_N</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6113T014AR140_B_N</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6113\AR140</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6113T014AR140_B_N</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR150</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6113T015AR150_B_V1</ActivePointName>
+          <ActivePointBehavior>0</ActivePointBehavior>
+          <ID>V6113T015AR150_B_N</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>600</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6113T015AR150_P_N</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6113T015AR150_B_N</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6113\AR150</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6113T015AR150_B_N</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>Truck Filling 4</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6510/T053US811/TF_START</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6510/T053US811/TF_BATCH_NO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>180</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6510/T053US811/MD_PRODUCT_GRADE</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6510/T053US811/TF_BATCH_NO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V6510\Truck Filling 4</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6510/T053US811/TF_BATCH_NO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>MPV</Name>
+          <Children>
+            <SubBatchConfig>
+              <Name_Valid>true</Name_Valid>
+              <Name>Phase</Name>
+              <Children />
+              <IsValid_All>false</IsValid_All>
+              <ActivePointName_Valid>true</ActivePointName_Valid>
+              <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+              <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+              <ID_StaticName_Valid>true</ID_StaticName_Valid>
+              <ActivePointName>V0001/T041AF937/SFC_TYPE.Phase_Q</ActivePointName>
+              <ActivePointBehavior>0</ActivePointBehavior>
+              <ID>V0001/T041AF937/SFC_TYPE.Phase_Q</ID>
+              <IDBehavior>0</IDBehavior>
+              <ZeroStateStrings />
+              <EFTemplatename>Operation</EFTemplatename>
+              <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+              <MergeConsecutive>false</MergeConsecutive>
+              <Enable>true</Enable>
+              <Attributes />
+              <RefElements />
+              <IsValid_All>false</IsValid_All>
+            </SubBatchConfig>
+          </Children>
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V0001/UNIT_AB4140/UNIT_AB4140.OCCUPIED</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V0001/UNIT_AB4140/BatchNumberPP.V</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>180</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V0001/UNIT_AB4140/MatCodePP.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V0001/UNIT_AB4140/BatchNumberPP.V</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\NJG\V0001\MPV</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V0001/UNIT_AB4140/BatchNumberPP.V</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR100</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6103K2STATUS</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6103K2BATCHNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6103K2MATERIAL</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6103K2BATCHNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6103\AR100</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6103K2BATCHNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR110</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6103K1STATUS</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6103K1BATCHNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6103K1MATERIAL</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6103K1BATCHNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6103\AR110</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6103K1BATCHNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+        <UnitProcedureConfig>
+          <Name_Valid>true</Name_Valid>
+          <Name>AR120</Name>
+          <Children />
+          <IsValid_All>false</IsValid_All>
+          <ActivePointName_Valid>true</ActivePointName_Valid>
+          <EventFrameTemplateName_Valid>false</EventFrameTemplateName_Valid>
+          <ID_PIPointName_Valid>false</ID_PIPointName_Valid>
+          <ID_StaticName_Valid>true</ID_StaticName_Valid>
+          <ActivePointName>V6103K3STATUS</ActivePointName>
+          <ActivePointBehavior>1</ActivePointBehavior>
+          <ID>V6103K3BATCHNO</ID>
+          <IDBehavior>0</IDBehavior>
+          <ZeroStateStrings />
+          <EFTemplatename>UnitProcedure</EFTemplatename>
+          <EvaluationDelaySeconds>10</EvaluationDelaySeconds>
+          <MergeConsecutive>false</MergeConsecutive>
+          <Enable>true</Enable>
+          <Attributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Unit Procedure Product</AttributeDesc>
+              <AttributeString>V6103K3MATERIAL</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Procedure</AttributeName>
+              <AttributeDesc>Unit Procedure</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>BatchID</AttributeName>
+              <AttributeDesc>Unit Procedure BatchID</AttributeDesc>
+              <AttributeString>V6103K3BATCHNO</AttributeString>
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </Attributes>
+          <RefElements>
+            <RefElement>\\ZBGHPIAFDEV01\Migration_Test_PI Batch\ZSHA0PI1DY ModuleDB\Wacker\ZJG\V6103\AR120</RefElement>
+          </RefElements>
+          <IsValid_All>false</IsValid_All>
+          <BatchIDBehavior>0</BatchIDBehavior>
+          <BatchID_Valid>true</BatchID_Valid>
+          <BatchID>V6103K3BATCHNO</BatchID>
+          <BatchAttributes>
+            <Attribute>
+              <AttributeName>Product</AttributeName>
+              <AttributeDesc>Batch Product</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+            <Attribute>
+              <AttributeName>Recipe</AttributeName>
+              <AttributeDesc>Batch Recipe</AttributeDesc>
+              <AttributeString />
+              <AttributeBehavior>0</AttributeBehavior>
+            </Attribute>
+          </BatchAttributes>
+        </UnitProcedureConfig>
+      </Children>
+      <IsValid_All>true</IsValid_All>
+      <ActivePointName_Valid>true</ActivePointName_Valid>
+      <EventFrameTemplateName_Valid>true</EventFrameTemplateName_Valid>
+      <ID_PIPointName_Valid>true</ID_PIPointName_Valid>
+      <ID_StaticName_Valid>true</ID_StaticName_Valid>
+      <ActivePointName />
+      <ActivePointBehavior>0</ActivePointBehavior>
+      <ID />
+      <IDBehavior>0</IDBehavior>
+      <ZeroStateStrings />
+      <EFTemplatename>Procedure</EFTemplatename>
+      <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+      <MergeConsecutive>true</MergeConsecutive>
+      <Enable>true</Enable>
+      <Attributes />
+      <RefElements />
+      <IsValid_All>true</IsValid_All>
+      <RecoveryTimeDays>0</RecoveryTimeDays>
+      <PIBaGenCompatible>true</PIBaGenCompatible>
+      <AlternateEvaluationBehavior>false</AlternateEvaluationBehavior>
+      <DebugMessages>false</DebugMessages>
+    </ProcedureConfig>
+  </Children>
+  <IsValid_All>true</IsValid_All>
+</EFrameConfig>

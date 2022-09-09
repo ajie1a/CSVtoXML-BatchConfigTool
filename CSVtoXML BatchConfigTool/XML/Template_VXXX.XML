@@ -1,0 +1,51 @@
+﻿<EFrameConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name_Valid>true</Name_Valid>
+  <Name>EFConfig_Tree</Name>
+  <Children>
+    <ProcedureConfig>
+      <Name_Valid>true</Name_Valid>
+      <Name>PI-BaGen</Name>
+      <Children>
+		<!-- copy from source the matched UnitProcedureConfig nodes here -->
+		<UnitProcedureConfig/>
+        
+      </Children>
+      <IsValid_All>true</IsValid_All>
+      <ActivePointName_Valid>true</ActivePointName_Valid>
+      <EventFrameTemplateName_Valid>true</EventFrameTemplateName_Valid>
+      <ID_PIPointName_Valid>true</ID_PIPointName_Valid>
+      <ID_StaticName_Valid>true</ID_StaticName_Valid>
+      <ActivePointName />
+      <ActivePointBehavior>0</ActivePointBehavior>
+      <ID />
+      <IDBehavior>0</IDBehavior>
+      <ZeroStateStrings />
+      <EFTemplatename>Procedure</EFTemplatename>
+      <EvaluationDelaySeconds>0</EvaluationDelaySeconds>
+      <MergeConsecutive>true</MergeConsecutive>
+      <Enable>true</Enable>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Product</AttributeName>
+          <AttributeDesc />
+          <AttributeString />
+          <AttributeBehavior>-1</AttributeBehavior>
+        </Attribute>
+        <Attribute>
+          <AttributeName>Recipe</AttributeName>
+          <AttributeDesc />
+          <AttributeString />
+          <AttributeBehavior>-1</AttributeBehavior>
+        </Attribute>
+      </Attributes>
+      <RefElements />
+      <IsValid_All>true</IsValid_All>
+      <RecoveryTimeDays>0</RecoveryTimeDays>
+      <PIBaGenCompatible>true</PIBaGenCompatible>
+      <AlternateEvaluationBehavior>false</AlternateEvaluationBehavior>
+      <DebugMessages>false</DebugMessages>
+    </ProcedureConfig>
+    
+  </Children>
+  <IsValid_All>true</IsValid_All>
+</EFrameConfig>
